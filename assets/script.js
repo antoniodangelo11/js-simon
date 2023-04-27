@@ -26,7 +26,7 @@ const setTimer = setInterval(function() {
   // Trova la distanza tra la data di oggi e quella da raggiungere
   let distance = countDownDate - now;
     
-  // Calcolo del tempo per giorni, ore, minuti e secondi.
+  // Calcolo del tempo per giorni, ore, minuti e secondi
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
