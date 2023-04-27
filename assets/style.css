@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://cdn.wallpapersafari.com/84/22/Jz6bAs.gif);
+}
+
+
+p {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 0px;
+    color: rgb(228, 228, 228);
+    font-family: 'Matrix', sans-serif;
+  }
