@@ -21,10 +21,10 @@ const countDownDate = new Date("April 28, 2023 09:30:00").getTime();
 const setTimer = setInterval(function() {
 
   // Prende la data e l'ora di oggi
-  const now = new Date().getTime();
+  const currentDate = new Date().getTime();
     
   // Trova la distanza tra la data di oggi e quella da raggiungere
-  let distance = countDownDate - now;
+  let distance = countDownDate - currentDate;
     
   // Calcolo del tempo per giorni, ore, minuti e secondi
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
