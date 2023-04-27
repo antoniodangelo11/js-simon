@@ -24,12 +24,12 @@ const setTimer = setInterval(function() {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Stampo il risultato nel dom in tempo reale
-  document.querySelector("#result").innerHTML = days + "d " + hours + "h "
+  document.querySelector(".result").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
     
   // Quanto il conteggio finirà stampo un messaggio di conclusione
   if (distance < 0) {
     clearInterval(setTimer);
-    document.querySelector("#result").innerHTML = "FINITO!";
+    document.querySelector(".result").innerHTML = "FINITO!";
   }
 }, 1000);
