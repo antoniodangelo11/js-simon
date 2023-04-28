@@ -6,7 +6,7 @@ Ogni secondo il nostro countdown dovrà scalare fino alle 9:30 di domani mattina
 /*____________________________________________*/
 
 // Varibile dove indica la data a cui puntare
-const countDownDate = new Date("April 28, 2023 09:30:00").getTime();
+const countDownDate = new Date("July 28, 2023 09:30:00").getTime();
 
 // Aggiorna l'intervallo un secondo alla volta
 const setTimer = setInterval(function() {
@@ -24,8 +24,8 @@ const setTimer = setInterval(function() {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Stampo il risultato nel dom in tempo reale
-  document.querySelector(".result").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.querySelector(".result").innerHTML = days + "G. " + hours + "Ore "
+  + minutes + "Min. " + seconds + "Sec. ";
     
   // Quanto il conteggio finirà stampo un messaggio di conclusione
   if (distance < 0) {
