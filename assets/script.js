@@ -6,7 +6,7 @@ Ogni secondo il nostro countdown dovrà scalare fino alle 9:30 di domani mattina
 /*____________________________________________*/
 
 // Varibile dove indica la data a cui puntare
-const countDownDate = new Date("April 29, 2023 09:30:00").getTime();
+const countDownDate = new Date("April 28, 2023 09:30:00").getTime();
 
 // Aggiorna l'intervallo un secondo alla volta
 const setTimer = setInterval(function() {
